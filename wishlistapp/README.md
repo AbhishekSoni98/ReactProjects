@@ -1,46 +1,128 @@
-# Getting Started with Create React App
+# Wishlist App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beginner-friendly **React** project that demonstrates core **JavaScript** and **React skills** with a modern frontend using **TypeScript**, **Material UI**, and responsive design patterns.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- **React Fundamentals:**  
+  - Built with **React**, **TypeScript**, and **CSS**  
+  - Showcases **useState hook** for state management  
+  - Component-based architecture with reusable components  
+  - Event handling and DOM manipulation  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Material UI Integration:**  
+  - Modern UI components using **Material UI (MUI)**  
+  - Customizable theme for consistent styling  
+  - Responsive design for better user experience  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **User Experience:**  
+  - Toast notifications for user feedback  
+  - Clean and intuitive interface  
+  - Smooth animations and transitions  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Project Structure
 
-### `npm run build`
+```
+wishlistapp/
+├── public/              # Static files
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src/                 # React components and logic
+│   ├── components/      # Reusable React components
+│   │   ├── Navbar.tsx
+│   │   ├── MainContent.tsx
+│   │   ├── TaskSnack.tsx
+│   │   └── Footer.tsx
+│   ├── App.tsx          # Main application component
+│   ├── App.css
+│   ├── index.tsx        # Entry point
+│   └── index.css
+├── package.json         # Project dependencies
+├── tsconfig.json        # TypeScript configuration
+└── README.md            # Project documentation
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
+- **VS Code** (recommended)
 
-### `npm run eject`
+### Steps to Run
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. **Navigate to the project folder:**
+   ```bash
+   cd wishlistapp
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. **Open your browser:**
+   - The app will automatically open at `http://localhost:3000`
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Key Highlights
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### React Components
+- **Navbar.tsx** - Navigation bar component
+- **MainContent.tsx** - Main wishlist display and management
+- **TaskSnack.tsx** - Individual wishlist item component
+- **Footer.tsx** - Footer information
+
+### State Management
+- Uses **React's useState hook** for managing wishlist items
+- Demonstrates component props and event handling
+
+### Material UI Features
+- Customizable theme for dark/light mode support
+- Pre-built MUI components for a polished look
+- Responsive grid and container layouts
+
+### Notifications
+- Toast notifications for user actions (add, delete, update)
+- Real-time feedback for better UX
+
+---
+
+## 💡 Learning Outcomes
+
+This project helps you understand:
+- ✅ React component structure and lifecycle
+- ✅ TypeScript basics with React
+- ✅ State management with useState
+- ✅ Props and component communication
+- ✅ Material UI integration and customization
+- ✅ CSS styling and responsive design
+- ✅ Event handling in React
+- ✅ Toast notifications implementation
+
+---
+
+## 👤 Author
+
+**Abhishek Soni**
+
+📧 Email: abhisheksoni1998@gmail.com
+
+---
+
+## 📝 License
+
+This project is open source and available for educational purposes.
